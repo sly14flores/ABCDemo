@@ -56,8 +56,8 @@ Migrate database
 C:\xampp\htdocs\ABCDemo>php artisan migrate
 ```
 
-Since there are additional configurations in apache2 to run a Laravel application we will use the Laravel built-in server
-Run Laravel built-in web server and brwose localhost:8000
+Since there are additional configurations in apache2 to run a Laravel application we will use the Laravel built-in server.
+Run Laravel built-in web server and browse localhost:8000
 ``` shell
 C:\xampp\htdocs\ABCDemo>php artisan serve
 Laravel development server started: http://127.0.0.1:8000
