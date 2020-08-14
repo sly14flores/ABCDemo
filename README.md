@@ -36,5 +36,26 @@ Open cmd and cd into xampp directory e.g. C:\xampp
 C:\>cd xampp\htdocs
 ```
 
+Cd into ABCDemo
+``` shell
+C:\xampp\htdocs>cd ABCDemo
+```
+
+Install npm packages
+``` shell
+C:\xampp\htdocs\ABCDemo>npm install
+```
+
+Install npm packages
+``` shell
+C:\xampp\htdocs\ABCDemo>composer install
+```
+
+Migrate database
+``` shell
+C:\xampp\htdocs\ABCDemo>php artisan migrate
+```
+
+Open browser and navigate to localhost/abcdemo/public
 
 
