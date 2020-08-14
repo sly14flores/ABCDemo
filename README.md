@@ -56,6 +56,13 @@ Migrate database
 C:\xampp\htdocs\ABCDemo>php artisan migrate
 ```
 
-Open browser and navigate to localhost/abcdemo/public
+Since there are additional configurations in apache2 to run a Laravel application we will use the Laravel built-in server
+Run Laravel built-in web server and brwose localhost:8000
+``` shell
+C:\xampp\htdocs\ABCDemo>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Fri Aug 14 13:13:32 2020] PHP 7.4.1 Development Server (http://127.0.0.1:8000) started
+```
+
 
 
