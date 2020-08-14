@@ -36,22 +36,22 @@ $   composer install
 C:\>cd xampp\htdocs
 ```
 
-Cd into ABCDemo
+* Cd into ABCDemo
 ``` shell
 C:\xampp\htdocs>cd ABCDemo
 ```
 
-Install npm packages
+* Install npm packages
 ``` shell
 C:\xampp\htdocs\ABCDemo>npm install
 ```
 
-Install npm packages
+* Install npm packages
 ``` shell
 C:\xampp\htdocs\ABCDemo>composer install
 ```
 
-Migrate database
+* Migrate database
 ``` shell
 C:\xampp\htdocs\ABCDemo>php artisan migrate
 ```
